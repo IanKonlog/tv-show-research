@@ -1,0 +1,174 @@
+{
+  "variants": [
+    {
+      "variant": "without Ozark",
+      "top20_overlap": 16,
+      "top5": [
+        "Trust",
+        "Kin",
+        "Would Be Kings",
+        "MobLand",
+        "Framed"
+      ]
+    },
+    {
+      "variant": "without Breaking Bad",
+      "top20_overlap": 16,
+      "top5": [
+        "Out There",
+        "Hiding",
+        "Riviera",
+        "Kin",
+        "Giri/Haji"
+      ]
+    },
+    {
+      "variant": "without Better Call Saul",
+      "top20_overlap": 17,
+      "top5": [
+        "Out There",
+        "Trust",
+        "Kin",
+        "Gangs of London",
+        "Hiding"
+      ]
+    },
+    {
+      "variant": "without Outer Banks",
+      "top20_overlap": 18,
+      "top5": [
+        "Out There",
+        "Kin",
+        "Trust",
+        "Riviera",
+        "Hiding"
+      ]
+    },
+    {
+      "variant": "without Black Sails",
+      "top20_overlap": 17,
+      "top5": [
+        "Out There",
+        "Trust",
+        "Kin",
+        "Riviera",
+        "Hiding"
+      ]
+    },
+    {
+      "variant": "without Game of Thrones",
+      "top20_overlap": 20,
+      "top5": [
+        "Out There",
+        "Trust",
+        "Kin",
+        "Hiding",
+        "Riviera"
+      ]
+    },
+    {
+      "variant": "text only",
+      "top20_overlap": 0,
+      "top5": [
+        "Palm Royale",
+        "Fallout",
+        "The Secret Daughter",
+        "Treasure Island",
+        "Blackbeard"
+      ]
+    },
+    {
+      "variant": "genres only",
+      "top20_overlap": 0,
+      "top5": [
+        "True Detective",
+        "The Killing",
+        "Legends",
+        "The Blacklist",
+        "Criminal Minds"
+      ]
+    },
+    {
+      "variant": "no theme rules",
+      "top20_overlap": 4,
+      "top5": [
+        "The Burden of Proof",
+        "Euphoria",
+        "Out There",
+        "Luther",
+        "StartUp"
+      ]
+    },
+    {
+      "variant": "theme emphasis",
+      "top20_overlap": 17,
+      "top5": [
+        "Out There",
+        "Trust",
+        "Hiding",
+        "Kin",
+        "Riviera"
+      ]
+    },
+    {
+      "variant": "text emphasis",
+      "top20_overlap": 15,
+      "top5": [
+        "Out There",
+        "Kin",
+        "Trust",
+        "Gangs of London",
+        "Would Be Kings"
+      ]
+    },
+    {
+      "variant": "Game of Thrones full weight",
+      "top20_overlap": 19,
+      "top5": [
+        "Out There",
+        "Trust",
+        "Kin",
+        "Riviera",
+        "Hiding"
+      ]
+    }
+  ],
+  "retrieval": [
+    {
+      "held_out": "Ozark",
+      "rank": 8.0,
+      "pool_size": 7446,
+      "top_percent": 0.11
+    },
+    {
+      "held_out": "Breaking Bad",
+      "rank": 3.0,
+      "pool_size": 7446,
+      "top_percent": 0.04
+    },
+    {
+      "held_out": "Better Call Saul",
+      "rank": 1657.0,
+      "pool_size": 7446,
+      "top_percent": 22.25
+    },
+    {
+      "held_out": "Outer Banks",
+      "rank": 2393.0,
+      "pool_size": 7446,
+      "top_percent": 32.14
+    },
+    {
+      "held_out": "Black Sails",
+      "rank": 999.0,
+      "pool_size": 7446,
+      "top_percent": 13.42
+    },
+    {
+      "held_out": "Game of Thrones",
+      "rank": 1069.0,
+      "pool_size": 7446,
+      "top_percent": 14.36
+    }
+  ]
+}

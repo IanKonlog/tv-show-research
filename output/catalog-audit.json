@@ -1,0 +1,34 @@
+{
+  "version": "tvmaze-v2-2026-09-07",
+  "retrieved": "2026-09-07",
+  "searchable_shows": 89594,
+  "recommendable_shows": 79573,
+  "genres": 28,
+  "themes": 32,
+  "text_features": 40000,
+  "languages": 83,
+  "types": {
+    "Scripted": 42056,
+    "Reality": 12745,
+    "Animation": 8954,
+    "Talk Show": 2365,
+    "Documentary": 16018,
+    "Sports": 958,
+    "Variety": 2673,
+    "Panel Show": 227,
+    "News": 1323,
+    "Game Show": 2080,
+    "Award Show": 195
+  },
+  "coverage": {
+    "Plot and genres available": 50156,
+    "No genre tags": 20789,
+    "Limited plot text": 11401,
+    "Very limited metadata": 7248
+  },
+  "recommendation_rule": "Known premiere on or before snapshot date, and at least 15 summary words or one genre.",
+  "country_meaning": "Country of listed network/web channel; not necessarily production origin or streaming availability.",
+  "themes_method": "Analyst-authored English regex proxies over summaries, with own title and example titles removed. No translations or human annotations.",
+  "source": "https://www.tvmaze.com/api",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+}

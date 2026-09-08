@@ -1,0 +1,137 @@
+<div id="tv-taste-research">
+  <h2>Your TV taste, in two directions</h2>
+  <div class="viz-row text-small" id="taste-legend"><span>Diamonds: your examples</span><span>Circles: overall + adventure matches</span><span>Similarity index, 0–100; not enjoyment probability</span></div>
+  <div id="taste-scatter"></div>
+  <div class="viz-controls">
+    <label class="form-label">Explore a show<select class="form-select" id="taste-selection"></select></label>
+  </div>
+  <div id="taste-detail" aria-live="polite"></div>
+  <hr>
+  <h3>Features your examples share</h3>
+  <div class="viz-row text-small"><span>Solid: your six examples</span><span>Faint: other English scripted shows</span></div>
+  <div id="taste-profile"></div>
+  <div class="text-small">Theme labels are keyword evidence in summaries. Unmentioned themes can still be present.</div>
+  <hr>
+  <h3>Closest recommendations</h3>
+  <div class="table-responsive"><table class="table table-sm"><thead><tr><th>Show</th><th>Similarity</th><th>Nearest example</th><th>Rank range*</th></tr></thead><tbody id="taste-ranking"></tbody></table></div>
+  <div class="text-small">*Ranks across six runs, each leaving out one favorite. Lower is better; wider ranges indicate sensitivity.</div>
+  <h3>Adventure matches</h3>
+  <div class="table-responsive"><table class="table table-sm"><thead><tr><th>Show</th><th>Adventure affinity</th><th>Nearest example</th></tr></thead><tbody id="taste-adventure-ranking"></tbody></table></div>
+  <div class="text-small" id="taste-source"></div>
+  <style>
+    #tv-taste-research .taste-chart { display: block; width: 100%; overflow: visible; }
+    #tv-taste-research .taste-chart text { fill: var(--foreground); font-size: 12px; }
+    #tv-taste-research .taste-chart .domain { stroke: var(--border); }
+    #tv-taste-research .taste-chart .tick line { stroke: var(--border); }
+    #tv-taste-research #taste-detail { margin-block: 12px; min-height: 90px; }
+    #tv-taste-research #taste-legend { margin-bottom: 8px; }
+    #tv-taste-research #taste-source { margin-top: 12px; }
+    #tv-taste-research .taste-name { font-weight: 500; }
+  </style>
+  <script type="application/json" id="taste-data">__TASTE_DATA__</script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script>
+  (() => {
+    const root = document.getElementById('tv-taste-research');
+    const data = JSON.parse(root.querySelector('#taste-data').textContent);
+    const select = root.querySelector('#taste-selection');
+    const byId = new Map(data.points.map(p => [p.id, p]));
+    let selected = data.recommendations[0].id;
+    const ns = 'http://www.w3.org/2000/svg';
+    const color = n => `var(--viz-series-${n})`;
+    function textNode(parent, tag, value, cls) {
+      const el = document.createElement(tag); el.textContent = value;
+      if (cls) el.className = cls; parent.appendChild(el); return el;
+    }
+    [...data.seeds, ...data.points.filter(p => !p.seed).sort((a,b) => a.rank-b.rank)].forEach(p => {
+      const o = document.createElement('option'); o.value = p.id;
+      o.textContent = p.seed ? `${p.name} · your example` : `${p.rank}. ${p.name} (${p.year})`;
+      select.appendChild(o);
+    });
+    select.value = selected;
+    function detail(id) {
+      selected = Number(id); select.value = selected;
+      const p = byId.get(selected), box = root.querySelector('#taste-detail');
+      box.replaceChildren();
+      const title = textNode(box, 'div', `${p.name} (${p.year})`, 'taste-name');
+      textNode(box, 'div', `${p.genres.join(' / ')} · ${p.runtime ?? 'Unknown'} min · TVmaze rating ${p.rating ?? 'unrated'}/10`, 'text-small');
+      textNode(box, 'div', p.seed ? 'One of your examples; map affinities include self-similarity.' : `Closest example: ${p.nearest} · similarity ${p.score.toFixed(1)} · rank ${p.rank}`, 'text-small');
+      textNode(box, 'div', `Shared summary evidence: ${p.shared.join('; ') || 'none found'}.`, 'text-small');
+      const link = textNode(box, 'a', 'Show details on TVmaze', 'text-small'); link.href=p.url; link.target='_blank'; link.rel='noopener noreferrer';
+      drawScatter();
+    }
+    select.addEventListener('change', e => detail(e.target.value));
+    function svgBase(target, height, description) {
+      const holder = root.querySelector(target); holder.replaceChildren();
+      const w = holder.getBoundingClientRect().width;
+      const svg = d3.select(holder).append('svg').attr('class', 'taste-chart').attr('viewBox', `0 0 ${w} ${height}`).attr('height', height).attr('role', 'img').attr('aria-label', description);
+      svg.append('title').text(description);
+      return {svg,w};
+    }
+    function drawScatter() {
+      const h = 365, {svg,w} = svgBase('#taste-scatter', h, 'Show similarity to your crime favorites horizontally and adventure favorites vertically. Select a show for its evidence.');
+      const m = {l:64,r:18,t:20,b:64};
+      const extent = field => {const [a,b] = d3.extent(data.points, p => p[field]); const pad=(b-a)*.08;return [Math.max(0,a-pad),Math.min(100,b+pad)];};
+      const x=d3.scaleLinear().domain(extent('x')).nice().range([m.l+8,w-m.r-8]);
+      const y=d3.scaleLinear().domain(extent('y')).nice().range([h-m.b-8,m.t+8]);
+      svg.append('rect').attr('data-chart-frame','').attr('x',m.l).attr('y',m.t).attr('width',w-m.l-m.r).attr('height',h-m.t-m.b).attr('fill','none');
+      svg.append('g').attr('transform',`translate(0,${h-m.b})`).call(d3.axisBottom(x).ticks(w<500?3:5));
+      svg.append('g').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5));
+      svg.append('text').attr('class','axis-title').attr('data-axis','x').attr('x',(w+m.l-m.r)/2).attr('y',h-23).attr('text-anchor','middle').text('Crime affinity (index)');
+      svg.append('text').attr('class','axis-title').attr('data-axis','y').attr('transform',`translate(16,${(h+m.t-m.b)/2}) rotate(-90)`).attr('text-anchor','middle').text('Adventure affinity (index)');
+      svg.selectAll('circle.show').data(data.points.filter(p=>!p.seed)).join('circle').attr('class','show').attr('cx',p=>x(p.x)).attr('cy',p=>y(p.y)).attr('r',p=>p.id===selected?7:4).attr('fill',p=>color(p.id===selected?1:2)).attr('opacity',p=>p.id===selected?1:.42);
+      const diamond = d3.symbol().type(d3.symbolDiamond).size(80);
+      svg.selectAll('path.seed').data(data.seeds).join('path').attr('class','seed').attr('d',diamond).attr('transform',p=>`translate(${x(p.x)},${y(p.y)})`).attr('fill',color(3));
+      // Only the selected title is annotated; all titles remain accessible in the selector.
+      const p=byId.get(selected), right=x(p.x)>w*.55;
+      const label=svg.append('text').attr('x',x(p.x)+(right?-10:10)).attr('y',y(p.y)-12).attr('text-anchor',right?'end':'start').text(p.name);
+      const bounds=label.node().getBBox();
+      if(bounds.x<m.l)label.attr('x',m.l+4).attr('text-anchor','start');
+      if(bounds.x+bounds.width>w-m.r)label.attr('x',w-m.r-4).attr('text-anchor','end');
+      if(bounds.y<m.t)label.attr('y',y(p.y)+22);
+      svg.append('rect').attr('data-chart-hit','').attr('x',m.l).attr('y',m.t).attr('width',w-m.l-m.r).attr('height',h-m.t-m.b).attr('fill','transparent').on('click',function(event){
+        const [mx,my]=d3.pointer(event,this);
+        const nearest=d3.least(data.points,p=>(x(p.x)-mx)**2+(y(p.y)-my)**2);
+        detail(nearest.id);
+      });
+    }
+    function drawProfile() {
+      const features=data.features.filter(f=>f.liked_count>=3).slice(0,9);
+      const narrow=root.getBoundingClientRect().width<500;
+      const row=narrow?62:36, h=features.length*row+64;
+      const {svg,w}=svgBase('#taste-profile',h,'Feature prevalence in your six examples compared with other English scripted shows; bars show percentages.');
+      const left=narrow?8:194, right=48, top=narrow?24:8;
+      const x=d3.scaleLinear().domain([0,100]).range([left,w-right]);
+      svg.append('rect').attr('data-chart-frame','').attr('x',left).attr('y',0).attr('width',w-left-right).attr('height',h-35).attr('fill','none');
+      features.forEach((f,i)=>{
+        const y=top+i*row;
+        svg.append('text').attr('x',narrow?left:left-10).attr('y',narrow?y-8:y+12).attr('text-anchor',narrow?'start':'end').text(f.feature.replace('Genre: ',''));
+        svg.append('rect').attr('x',left).attr('y',y).attr('width',x(f.liked_pct)-left).attr('height',9).attr('fill',color(1)).attr('data-tooltip',`${f.feature}: ${f.liked_count}/6 examples (${f.liked_pct.toFixed(1)}%)`);
+        svg.append('rect').attr('x',left).attr('y',y+12).attr('width',x(f.baseline_pct)-left).attr('height',9).attr('fill',color(1)).attr('opacity',.25).attr('data-tooltip',`Other shows: ${f.baseline_pct.toFixed(1)}%`);
+        svg.append('text').attr('x',w-right+7).attr('y',y+11).text(`${f.liked_count}/6`);
+      });
+      svg.append('g').attr('transform',`translate(0,${h-48})`).call(d3.axisBottom(x).ticks(narrow?3:5).tickFormat(d=>d+'%'));
+      svg.append('text').attr('class','axis-title').attr('data-axis','x').attr('x',(left+w-right)/2).attr('y',h-4).attr('text-anchor','middle').text('Shows with feature (%)');
+    }
+    const tbody=root.querySelector('#taste-ranking');
+    data.recommendations.slice(0,8).forEach(p=>{
+      const tr=document.createElement('tr');tbody.appendChild(tr);
+      const td=document.createElement('td');tr.appendChild(td);
+      const button=textNode(td,'a',`${p.name} (${p.year})`);button.href='#taste-detail';button.addEventListener('click',e=>{e.preventDefault();detail(p.id);});
+      textNode(tr,'td',p.score.toFixed(1),'tabular-nums');textNode(tr,'td',p.nearest);textNode(tr,'td',`${p.loo_min}–${p.loo_max}`,'tabular-nums');
+    });
+    const adventureBody=root.querySelector('#taste-adventure-ranking');
+    data.adventure_recommendations.slice(0,5).forEach(p=>{
+      const tr=document.createElement('tr');adventureBody.appendChild(tr);
+      const td=document.createElement('td');tr.appendChild(td);
+      const button=textNode(td,'a',`${p.name} (${p.year})`);button.href='#taste-detail';button.addEventListener('click',e=>{e.preventDefault();detail(p.id);});
+      textNode(tr,'td',p.y.toFixed(1),'tabular-nums');textNode(tr,'td',p.nearest);
+    });
+    textNode(root.querySelector('#taste-source'),'span',`Source: TVmaze (CC BY-SA 4.0) · ${data.audit.retrieved} · ${data.audit.analysis_records.toLocaleString()} shows analyzed · ${data.audit.candidates.toLocaleString()} candidates (English, scripted, premiered 1990+, ≥25 minutes). `);
+    const attribution=textNode(root.querySelector('#taste-source'),'a','TVmaze');attribution.href='https://www.tvmaze.com/';attribution.target='_blank';attribution.rel='noopener noreferrer';
+    detail(selected);drawProfile();
+    let previousWidth=root.getBoundingClientRect().width;
+    new ResizeObserver(()=>{const width=root.getBoundingClientRect().width;if(Math.abs(width-previousWidth)>1){previousWidth=width;drawScatter();drawProfile();}}).observe(root);
+  })();
+  </script>
+</div>

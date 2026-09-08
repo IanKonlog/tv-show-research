@@ -1,0 +1,2692 @@
+[
+  {
+    "id": 71213,
+    "name": "Out There",
+    "year": 2025,
+    "rating": 6.1,
+    "runtime": 47.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/71213/out-there",
+    "seed": false,
+    "score": 47.87,
+    "x": 50.89,
+    "y": 29.46,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "moving",
+      "money",
+      "family"
+    ],
+    "rank": 1,
+    "loo_min": 1,
+    "loo_max": 7,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      63.33,
+      55.17,
+      34.17,
+      25.83,
+      33.09,
+      25.83
+    ]
+  },
+  {
+    "id": 14117,
+    "name": "Trust",
+    "year": 2018,
+    "rating": 6.2,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/14117/trust",
+    "seed": false,
+    "score": 46.51,
+    "x": 47.65,
+    "y": 34.48,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival",
+      "Friendship / youth"
+    ],
+    "words": [
+      "iii",
+      "family",
+      "explores",
+      "teenage",
+      "man"
+    ],
+    "rank": 2,
+    "loo_min": 1,
+    "loo_max": 10,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      50.29,
+      57.7,
+      34.96,
+      32.39,
+      36.58,
+      32.06
+    ]
+  },
+  {
+    "id": 53750,
+    "name": "Kin",
+    "year": 2021,
+    "rating": 7.6,
+    "runtime": 64.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/53750/kin",
+    "seed": false,
+    "score": 46.17,
+    "x": 48.64,
+    "y": 32.43,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "world drugs",
+      "kingpin",
+      "drug",
+      "drugs",
+      "family"
+    ],
+    "rank": 3,
+    "loo_min": 2,
+    "loo_max": 4,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      52.92,
+      56.66,
+      36.33,
+      25.86,
+      39.0,
+      34.88
+    ]
+  },
+  {
+    "id": 2601,
+    "name": "Hiding",
+    "year": 2015,
+    "rating": 7.0,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/2601/hiding",
+    "seed": false,
+    "score": 45.17,
+    "x": 48.36,
+    "y": 30.76,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "family"
+    ],
+    "rank": 4,
+    "loo_min": 2,
+    "loo_max": 12,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      56.23,
+      50.25,
+      38.59,
+      27.71,
+      33.81,
+      27.86
+    ]
+  },
+  {
+    "id": 16077,
+    "name": "Riviera",
+    "year": 2017,
+    "rating": 7.3,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/16077/riviera",
+    "seed": false,
+    "score": 44.85,
+    "x": 49.34,
+    "y": 26.92,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "family"
+    ],
+    "rank": 5,
+    "loo_min": 3,
+    "loo_max": 15,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      56.62,
+      51.26,
+      40.15,
+      23.99,
+      29.85,
+      31.81
+    ]
+  },
+  {
+    "id": 46514,
+    "name": "Framed",
+    "year": 1992,
+    "rating": null,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/46514/framed",
+    "seed": false,
+    "score": 44.39,
+    "x": 49.04,
+    "y": 28.54,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "wife"
+    ],
+    "rank": 6,
+    "loo_min": 5,
+    "loo_max": 11,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      53.58,
+      54.37,
+      39.18,
+      22.62,
+      34.45,
+      29.77
+    ]
+  },
+  {
+    "id": 33487,
+    "name": "Gangs of London",
+    "year": 2020,
+    "rating": 7.7,
+    "runtime": 56.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/33487/gangs-of-london",
+    "seed": false,
+    "score": 43.8,
+    "x": 45.45,
+    "y": 28.89,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "power",
+      "family",
+      "crime",
+      "world",
+      "dangerous"
+    ],
+    "rank": 7,
+    "loo_min": 4,
+    "loo_max": 18,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      53.57,
+      55.83,
+      26.95,
+      17.45,
+      40.34,
+      36.03
+    ]
+  },
+  {
+    "id": 75026,
+    "name": "MobLand",
+    "year": 2025,
+    "rating": 8.0,
+    "runtime": 46.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/75026/mobland",
+    "seed": false,
+    "score": 43.7,
+    "x": 47.69,
+    "y": 30.13,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "family",
+      "man",
+      "follows"
+    ],
+    "rank": 8,
+    "loo_min": 4,
+    "loo_max": 16,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      49.74,
+      50.96,
+      42.38,
+      24.49,
+      35.77,
+      39.44
+    ]
+  },
+  {
+    "id": 67239,
+    "name": "White Lies",
+    "year": 2024,
+    "rating": 6.5,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/67239/white-lies",
+    "seed": false,
+    "score": 43.69,
+    "x": 49.38,
+    "y": 27.13,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Danger / survival",
+      "Friendship / youth"
+    ],
+    "words": [
+      "teenage",
+      "crime",
+      "world"
+    ],
+    "rank": 9,
+    "loo_min": 6,
+    "loo_max": 19,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      51.83,
+      52.99,
+      43.33,
+      28.18,
+      26.08,
+      28.61
+    ]
+  },
+  {
+    "id": 24846,
+    "name": "Would Be Kings",
+    "year": 2008,
+    "rating": null,
+    "runtime": 120.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/24846/would-be-kings",
+    "seed": false,
+    "score": 43.6,
+    "x": 46.05,
+    "y": 34.62,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival",
+      "Friendship / youth"
+    ],
+    "words": [
+      "drug",
+      "drugs",
+      "stage",
+      "power",
+      "family"
+    ],
+    "rank": 10,
+    "loo_min": 3,
+    "loo_max": 24,
+    "loo_top20": 5,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "affinities": [
+      45.72,
+      49.89,
+      42.55,
+      33.78,
+      35.45,
+      32.75
+    ]
+  },
+  {
+    "id": 34448,
+    "name": "Giri/Haji",
+    "year": 2019,
+    "rating": 7.7,
+    "runtime": 56.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/34448/girihaji",
+    "seed": false,
+    "score": 43.52,
+    "x": 49.27,
+    "y": 25.31,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "family"
+    ],
+    "rank": 11,
+    "loo_min": 5,
+    "loo_max": 28,
+    "loo_top20": 4,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      53.96,
+      48.61,
+      45.24,
+      22.62,
+      28.01,
+      29.77
+    ]
+  },
+  {
+    "id": 2705,
+    "name": "Narcos",
+    "year": 2015,
+    "rating": 8.4,
+    "runtime": 52.0,
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/2705/narcos",
+    "seed": false,
+    "score": 43.35,
+    "x": 45.44,
+    "y": 33.09,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "family"
+    ],
+    "rank": 12,
+    "loo_min": 7,
+    "loo_max": 19,
+    "loo_top20": 6,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      52.22,
+      48.64,
+      35.45,
+      25.83,
+      40.34,
+      26.08
+    ]
+  },
+  {
+    "id": 58880,
+    "name": "Hidden Assets",
+    "year": 2021,
+    "rating": 7.2,
+    "runtime": 56.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/58880/hidden-assets",
+    "seed": false,
+    "score": 43.28,
+    "x": 48.79,
+    "y": 29.35,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "financial",
+      "drug",
+      "family",
+      "power",
+      "world"
+    ],
+    "rank": 13,
+    "loo_min": 6,
+    "loo_max": 31,
+    "loo_top20": 5,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      48.37,
+      49.07,
+      48.94,
+      24.57,
+      34.14,
+      37.54
+    ]
+  },
+  {
+    "id": 51246,
+    "name": "Telltale",
+    "year": 1993,
+    "rating": null,
+    "runtime": 50.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/51246/telltale",
+    "seed": false,
+    "score": 43.18,
+    "x": 45.78,
+    "y": 26.94,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "family"
+    ],
+    "rank": 14,
+    "loo_min": 9,
+    "loo_max": 44,
+    "loo_top20": 5,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      56.17,
+      50.81,
+      30.37,
+      18.44,
+      35.44,
+      28.54
+    ]
+  },
+  {
+    "id": 53147,
+    "name": "Black Bird",
+    "year": 2022,
+    "rating": 8.0,
+    "runtime": 58.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/53147/black-bird",
+    "seed": false,
+    "score": 43.12,
+    "x": 44.66,
+    "y": 28.98,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival",
+      "Friendship / youth"
+    ],
+    "words": [
+      "security",
+      "enter",
+      "given",
+      "drug",
+      "son"
+    ],
+    "rank": 15,
+    "loo_min": 7,
+    "loo_max": 50,
+    "loo_top20": 5,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      51.25,
+      55.97,
+      26.77,
+      25.83,
+      32.13,
+      26.51
+    ]
+  },
+  {
+    "id": 81770,
+    "name": "Safe Harbor",
+    "year": 2025,
+    "rating": 6.9,
+    "runtime": 52.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/81770/safe-harbor",
+    "seed": false,
+    "score": 43.1,
+    "x": 44.74,
+    "y": 29.51,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival",
+      "Friendship / youth"
+    ],
+    "words": [
+      "drug",
+      "dangerous",
+      "family",
+      "world"
+    ],
+    "rank": 16,
+    "loo_min": 6,
+    "loo_max": 26,
+    "loo_top20": 4,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      53.38,
+      55.42,
+      25.42,
+      26.45,
+      32.58,
+      26.07
+    ]
+  },
+  {
+    "id": 83331,
+    "name": "The Westies",
+    "year": 2026,
+    "rating": 7.5,
+    "runtime": 53.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/83331/the-westies",
+    "seed": false,
+    "score": 43.03,
+    "x": 47.63,
+    "y": 29.05,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [],
+    "rank": 17,
+    "loo_min": 9,
+    "loo_max": 26,
+    "loo_top20": 4,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      51.72,
+      47.1,
+      44.07,
+      26.89,
+      31.21,
+      26.54
+    ]
+  },
+  {
+    "id": 3552,
+    "name": "Criminal Justice",
+    "year": 2008,
+    "rating": 7.9,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/3552/criminal-justice",
+    "seed": false,
+    "score": 42.88,
+    "x": 44.32,
+    "y": 28.45,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "follows",
+      "man",
+      "crime"
+    ],
+    "rank": 18,
+    "loo_min": 10,
+    "loo_max": 34,
+    "loo_top20": 4,
+    "themes": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      52.34,
+      54.76,
+      25.85,
+      17.08,
+      39.82,
+      35.12
+    ]
+  },
+  {
+    "id": 79127,
+    "name": "M.I.A.",
+    "year": 2026,
+    "rating": 6.8,
+    "runtime": 44.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/79127/mia",
+    "seed": false,
+    "score": 42.87,
+    "x": 44.32,
+    "y": 28.36,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "drug",
+      "dangerous",
+      "family"
+    ],
+    "rank": 19,
+    "loo_min": 8,
+    "loo_max": 33,
+    "loo_top20": 4,
+    "themes": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      52.68,
+      54.88,
+      25.42,
+      17.08,
+      39.64,
+      34.58
+    ]
+  },
+  {
+    "id": 67127,
+    "name": "Unseen",
+    "year": 2023,
+    "rating": 6.9,
+    "runtime": 44.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/67127/unseen",
+    "seed": false,
+    "score": 42.39,
+    "x": 44.43,
+    "y": 26.94,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [],
+    "rank": 20,
+    "loo_min": 15,
+    "loo_max": 65,
+    "loo_top20": 4,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      55.31,
+      49.75,
+      28.22,
+      18.44,
+      35.44,
+      28.54
+    ]
+  },
+  {
+    "id": 39441,
+    "name": "Carl Weber's The Family Business",
+    "year": 2018,
+    "rating": 5.0,
+    "runtime": 55.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/39441/carl-webers-the-family-business",
+    "seed": false,
+    "score": 42.22,
+    "x": 45.22,
+    "y": 26.45,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "family",
+      "drug",
+      "dangerous",
+      "live"
+    ],
+    "rank": 21,
+    "loo_min": 14,
+    "loo_max": 39,
+    "loo_top20": 3,
+    "themes": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      50.19,
+      52.33,
+      33.14,
+      16.16,
+      36.73,
+      40.5
+    ]
+  },
+  {
+    "id": 47259,
+    "name": "Duster",
+    "year": 2025,
+    "rating": 6.4,
+    "runtime": 49.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/47259/duster",
+    "seed": false,
+    "score": 42.12,
+    "x": 43.8,
+    "y": 28.93,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "dangerous",
+      "family"
+    ],
+    "rank": 22,
+    "loo_min": 17,
+    "loo_max": 60,
+    "loo_top20": 2,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      53.17,
+      47.46,
+      30.77,
+      20.31,
+      37.54,
+      30.7
+    ]
+  },
+  {
+    "id": 299,
+    "name": "Power",
+    "year": 2014,
+    "rating": 7.9,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/299/power",
+    "seed": false,
+    "score": 42.1,
+    "x": 45.8,
+    "y": 29.18,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "kingpin",
+      "drug",
+      "new",
+      "family"
+    ],
+    "rank": 23,
+    "loo_min": 13,
+    "loo_max": 35,
+    "loo_top20": 1,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "affinities": [
+      47.17,
+      49.29,
+      40.93,
+      23.43,
+      34.92,
+      37.09
+    ]
+  },
+  {
+    "id": 6764,
+    "name": "Hap and Leonard",
+    "year": 2016,
+    "rating": 7.6,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/6764/hap-and-leonard",
+    "seed": false,
+    "score": 41.82,
+    "x": 44.42,
+    "y": 28.09,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Money / class",
+      "Family ties",
+      "Danger / survival",
+      "Friendship / youth"
+    ],
+    "words": [
+      "white",
+      "follows",
+      "wife"
+    ],
+    "rank": 24,
+    "loo_min": 13,
+    "loo_max": 57,
+    "loo_top20": 2,
+    "themes": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      48.48,
+      51.89,
+      32.89,
+      33.25,
+      22.93,
+      32.16
+    ]
+  },
+  {
+    "id": 43819,
+    "name": "Top Boy",
+    "year": 2019,
+    "rating": 7.5,
+    "runtime": 54.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/43819/top-boy",
+    "seed": false,
+    "score": 41.75,
+    "x": 47.45,
+    "y": 23.18,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "drug",
+      "power"
+    ],
+    "rank": 25,
+    "loo_min": 18,
+    "loo_max": 49,
+    "loo_top20": 1,
+    "themes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      50.2,
+      52.0,
+      40.15,
+      16.16,
+      30.2,
+      31.81
+    ]
+  },
+  {
+    "id": 42559,
+    "name": "Deadwater Fell",
+    "year": 2020,
+    "rating": 7.0,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/42559/deadwater-fell",
+    "seed": false,
+    "score": 41.65,
+    "x": 43.15,
+    "y": 28.81,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "community",
+      "family"
+    ],
+    "rank": 26,
+    "loo_min": 20,
+    "loo_max": 81,
+    "loo_top20": 1,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      52.41,
+      46.25,
+      30.78,
+      20.31,
+      37.32,
+      31.71
+    ]
+  },
+  {
+    "id": 12323,
+    "name": "StartUp",
+    "year": 2016,
+    "rating": 7.7,
+    "runtime": 54.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/12323/startup",
+    "seed": false,
+    "score": 41.59,
+    "x": 48.02,
+    "y": 23.17,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Danger / survival"
+    ],
+    "words": [
+      "dirty",
+      "money",
+      "dangerous"
+    ],
+    "rank": 27,
+    "loo_min": 21,
+    "loo_max": 49,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      51.9,
+      51.57,
+      40.57,
+      16.16,
+      30.19,
+      24.18
+    ]
+  },
+  {
+    "id": 38635,
+    "name": "Prodigal Son",
+    "year": 2019,
+    "rating": 7.7,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/38635/prodigal-son",
+    "seed": false,
+    "score": 41.44,
+    "x": 42.8,
+    "y": 30.3,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "family"
+    ],
+    "rank": 28,
+    "loo_min": 21,
+    "loo_max": 67,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      51.08,
+      46.0,
+      31.31,
+      21.68,
+      38.91,
+      30.41
+    ]
+  },
+  {
+    "id": 17313,
+    "name": "Shoot the Messenger",
+    "year": 2016,
+    "rating": 5.8,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/17313/shoot-the-messenger",
+    "seed": false,
+    "score": 41.38,
+    "x": 44.48,
+    "y": 26.45,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "crime",
+      "power",
+      "follows",
+      "family",
+      "lives"
+    ],
+    "rank": 29,
+    "loo_min": 25,
+    "loo_max": 67,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      48.75,
+      51.77,
+      32.93,
+      16.16,
+      36.74,
+      31.99
+    ]
+  },
+  {
+    "id": 2361,
+    "name": "The Widower",
+    "year": 2014,
+    "rating": 8.0,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/2361/the-widower",
+    "seed": false,
+    "score": 41.37,
+    "x": 44.69,
+    "y": 24.45,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "moving"
+    ],
+    "rank": 30,
+    "loo_min": 25,
+    "loo_max": 98,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      52.81,
+      46.88,
+      34.38,
+      17.08,
+      31.81,
+      34.82
+    ]
+  },
+  {
+    "id": 3999,
+    "name": "The Philanthropist",
+    "year": 2009,
+    "rating": 6.0,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Action",
+      "Adventure"
+    ],
+    "url": "https://www.tvmaze.com/shows/3999/the-philanthropist",
+    "seed": false,
+    "score": 41.37,
+    "x": 31.77,
+    "y": 43.17,
+    "nearest": "Black Sails",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival",
+      "Adventure / quest"
+    ],
+    "words": [
+      "power",
+      "young",
+      "way"
+    ],
+    "rank": 31,
+    "loo_min": 9,
+    "loo_max": 397,
+    "loo_top20": 3,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "affinities": [
+      34.25,
+      39.95,
+      21.11,
+      33.08,
+      53.26,
+      35.38
+    ]
+  },
+  {
+    "id": 19669,
+    "name": "Ice",
+    "year": 2016,
+    "rating": 7.1,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/19669/ice",
+    "seed": false,
+    "score": 41.2,
+    "x": 42.9,
+    "y": 29.11,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "family"
+    ],
+    "rank": 32,
+    "loo_min": 27,
+    "loo_max": 71,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      51.18,
+      47.01,
+      30.52,
+      20.71,
+      37.51,
+      30.41
+    ]
+  },
+  {
+    "id": 65087,
+    "name": "Joan",
+    "year": 2024,
+    "rating": 5.7,
+    "runtime": 46.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/65087/joan",
+    "seed": false,
+    "score": 41.16,
+    "x": 42.85,
+    "y": 29.48,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [],
+    "rank": 33,
+    "loo_min": 28,
+    "loo_max": 64,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      50.72,
+      46.69,
+      31.13,
+      20.31,
+      38.65,
+      30.86
+    ]
+  },
+  {
+    "id": 2415,
+    "name": "Snowfall",
+    "year": 2017,
+    "rating": 8.0,
+    "runtime": 64.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/2415/snowfall",
+    "seed": false,
+    "score": 41.05,
+    "x": 40.23,
+    "y": 36.23,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "power",
+      "crime",
+      "follows",
+      "family"
+    ],
+    "rank": 34,
+    "loo_min": 21,
+    "loo_max": 83,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      44.94,
+      47.34,
+      28.4,
+      25.86,
+      46.61,
+      34.5
+    ]
+  },
+  {
+    "id": 44042,
+    "name": "Ripley",
+    "year": 2024,
+    "rating": 7.0,
+    "runtime": 56.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/44042/ripley",
+    "seed": false,
+    "score": 41.0,
+    "x": 44.58,
+    "y": 24.98,
+    "nearest": "Ozark",
+    "shared": [
+      "Money / class",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [],
+    "rank": 35,
+    "loo_min": 20,
+    "loo_max": 72,
+    "loo_top20": 1,
+    "themes": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      51.25,
+      47.82,
+      34.67,
+      25.83,
+      24.14,
+      34.77
+    ]
+  },
+  {
+    "id": 56187,
+    "name": "City on Fire",
+    "year": 2023,
+    "rating": 5.7,
+    "runtime": 51.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/56187/city-on-fire",
+    "seed": false,
+    "score": 41.0,
+    "x": 47.26,
+    "y": 25.67,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Friendship / youth"
+    ],
+    "words": [
+      "crime",
+      "family"
+    ],
+    "rank": 36,
+    "loo_min": 16,
+    "loo_max": 92,
+    "loo_top20": 1,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      46.81,
+      48.9,
+      46.08,
+      30.24,
+      21.11,
+      23.07
+    ]
+  },
+  {
+    "id": 3527,
+    "name": "Garage Sale Mystery",
+    "year": 2013,
+    "rating": 7.5,
+    "runtime": 120.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "url": "https://www.tvmaze.com/shows/3527/garage-sale-mystery",
+    "seed": false,
+    "score": 40.95,
+    "x": 41.95,
+    "y": 36.8,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "dangerous"
+    ],
+    "rank": 37,
+    "loo_min": 16,
+    "loo_max": 100,
+    "loo_top20": 1,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      46.05,
+      41.03,
+      38.78,
+      39.59,
+      34.0,
+      22.76
+    ]
+  },
+  {
+    "id": 79884,
+    "name": "Art Detectives",
+    "year": 2025,
+    "rating": 7.5,
+    "runtime": 46.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/79884/art-detectives",
+    "seed": false,
+    "score": 40.94,
+    "x": 45.29,
+    "y": 27.49,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "world"
+    ],
+    "rank": 38,
+    "loo_min": 24,
+    "loo_max": 76,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "affinities": [
+      49.43,
+      44.58,
+      41.85,
+      24.88,
+      30.09,
+      24.84
+    ]
+  },
+  {
+    "id": 45500,
+    "name": "Landscapers",
+    "year": 2021,
+    "rating": 6.5,
+    "runtime": 46.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/45500/landscapers",
+    "seed": false,
+    "score": 40.94,
+    "x": 42.76,
+    "y": 28.81,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [],
+    "rank": 39,
+    "loo_min": 33,
+    "loo_max": 74,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      50.72,
+      47.05,
+      30.52,
+      20.31,
+      37.32,
+      30.41
+    ]
+  },
+  {
+    "id": 45975,
+    "name": "The Cleaning Lady",
+    "year": 2022,
+    "rating": 7.0,
+    "runtime": 59.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/45975/the-cleaning-lady",
+    "seed": false,
+    "score": 40.93,
+    "x": 42.75,
+    "y": 28.81,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [],
+    "rank": 40,
+    "loo_min": 34,
+    "loo_max": 80,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      50.72,
+      46.23,
+      31.31,
+      20.31,
+      37.32,
+      30.41
+    ]
+  },
+  {
+    "id": 16078,
+    "name": "Tin Star",
+    "year": 2017,
+    "rating": 7.1,
+    "runtime": 58.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/16078/tin-star",
+    "seed": false,
+    "score": 40.84,
+    "x": 44.85,
+    "y": 24.55,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "family",
+      "world"
+    ],
+    "rank": 41,
+    "loo_min": 30,
+    "loo_max": 93,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      51.9,
+      47.99,
+      34.66,
+      17.08,
+      32.01,
+      27.06
+    ]
+  },
+  {
+    "id": 67534,
+    "name": "Rebus",
+    "year": 2024,
+    "rating": 6.7,
+    "runtime": 46.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/67534/rebus",
+    "seed": false,
+    "score": 40.83,
+    "x": 45.47,
+    "y": 25.74,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Power / ambition"
+    ],
+    "words": [
+      "family man",
+      "man",
+      "follows",
+      "family",
+      "world"
+    ],
+    "rank": 42,
+    "loo_min": 30,
+    "loo_max": 95,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "affinities": [
+      47.1,
+      50.63,
+      38.68,
+      23.29,
+      28.2,
+      23.16
+    ]
+  },
+  {
+    "id": 80725,
+    "name": "Task",
+    "year": 2025,
+    "rating": 7.4,
+    "runtime": 64.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/80725/task",
+    "seed": false,
+    "score": 40.79,
+    "x": 46.97,
+    "y": 26.78,
+    "nearest": "Better Call Saul",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Law / investigation"
+    ],
+    "words": [
+      "man",
+      "working",
+      "set"
+    ],
+    "rank": 43,
+    "loo_min": 24,
+    "loo_max": 125,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      47.23,
+      45.46,
+      48.22,
+      27.71,
+      25.86,
+      19.32
+    ]
+  },
+  {
+    "id": 70235,
+    "name": "The Gathering",
+    "year": 2024,
+    "rating": 6.8,
+    "runtime": 47.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/70235/the-gathering",
+    "seed": false,
+    "score": 40.77,
+    "x": 42.0,
+    "y": 30.7,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival",
+      "Friendship / youth"
+    ],
+    "words": [
+      "teenage",
+      "crime"
+    ],
+    "rank": 44,
+    "loo_min": 30,
+    "loo_max": 84,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      46.66,
+      49.91,
+      29.43,
+      27.71,
+      33.68,
+      28.01
+    ]
+  },
+  {
+    "id": 70857,
+    "name": "Virdee",
+    "year": 2025,
+    "rating": 6.0,
+    "runtime": 57.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/70857/virdee",
+    "seed": false,
+    "score": 40.7,
+    "x": 41.64,
+    "y": 35.12,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "kingpin",
+      "drugs",
+      "family"
+    ],
+    "rank": 45,
+    "loo_min": 23,
+    "loo_max": 84,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      44.23,
+      45.71,
+      34.96,
+      25.62,
+      44.62,
+      31.64
+    ]
+  },
+  {
+    "id": 7972,
+    "name": "Red Rock",
+    "year": 2015,
+    "rating": 6.9,
+    "runtime": 38.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/7972/red-rock",
+    "seed": false,
+    "score": 40.69,
+    "x": 45.66,
+    "y": 28.81,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Family ties",
+      "Power / ambition"
+    ],
+    "words": [
+      "crime",
+      "lives"
+    ],
+    "rank": 46,
+    "loo_min": 30,
+    "loo_max": 86,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      46.25,
+      46.63,
+      44.09,
+      25.86,
+      31.77,
+      27.11
+    ]
+  },
+  {
+    "id": 8307,
+    "name": "The Last Don",
+    "year": 1997,
+    "rating": null,
+    "runtime": 120.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/8307/the-last-don",
+    "seed": false,
+    "score": 40.64,
+    "x": 42.78,
+    "y": 29.35,
+    "nearest": "Breaking Bad",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Power / ambition",
+      "Danger / survival"
+    ],
+    "words": [
+      "family",
+      "man",
+      "son",
+      "new"
+    ],
+    "rank": 47,
+    "loo_min": 26,
+    "loo_max": 68,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      44.66,
+      47.27,
+      36.42,
+      18.47,
+      40.23,
+      43.44
+    ]
+  },
+  {
+    "id": 57123,
+    "name": "A Town Called Malice",
+    "year": 2023,
+    "rating": 7.8,
+    "runtime": 51.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "url": "https://www.tvmaze.com/shows/57123/a-town-called-malice",
+    "seed": false,
+    "score": 40.56,
+    "x": 44.46,
+    "y": 24.45,
+    "nearest": "Ozark",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Family ties",
+      "Danger / survival"
+    ],
+    "words": [
+      "family"
+    ],
+    "rank": 48,
+    "loo_min": 35,
+    "loo_max": 109,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      51.64,
+      47.34,
+      34.39,
+      17.08,
+      31.81,
+      26.72
+    ]
+  },
+  {
+    "id": 1287,
+    "name": "The Black Donnellys",
+    "year": 2007,
+    "rating": 7.6,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "url": "https://www.tvmaze.com/shows/1287/the-black-donnellys",
+    "seed": false,
+    "score": 40.56,
+    "x": 43.99,
+    "y": 34.65,
+    "nearest": "Better Call Saul",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Law / investigation"
+    ],
+    "words": [
+      "jimmy",
+      "ends",
+      "working",
+      "make"
+    ],
+    "rank": 49,
+    "loo_min": 22,
+    "loo_max": 113,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      42.85,
+      44.49,
+      44.64,
+      39.71,
+      29.59,
+      18.18
+    ]
+  },
+  {
+    "id": 7153,
+    "name": "Killing Time",
+    "year": 2011,
+    "rating": 7.8,
+    "runtime": 60.0,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+    ],
+    "url": "https://www.tvmaze.com/shows/7153/killing-time",
+    "seed": false,
+    "score": 40.53,
+    "x": 45.53,
+    "y": 20.78,
+    "nearest": "Better Call Saul",
+    "shared": [
+      "Crime / illicit enterprise",
+      "Money / class",
+      "Law / investigation"
+    ],
+    "words": [
+      "jimmy",
+      "lawyer",
+      "small time",
+      "small",
+      "years"
+    ],
+    "rank": 50,
+    "loo_min": 23,
+    "loo_max": 549,
+    "loo_top20": 0,
+    "themes": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "affinities": [
+      42.92,
+      38.94,
+      54.75,
+      17.08,
+      24.47,
+      17.26
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+.venv/
+.todos/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+.rig.lock
+.rig/
+data/raw/
+data/archive/
+data/model-backup/
+output/site-qa/
+output/qa/
+*.log
