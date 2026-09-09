@@ -9,7 +9,7 @@ workspace:
 source:
   kind: git
   repo: https://github.com/IanKonlog/tv-show-research.git
-  branch: main
+  branch: rigbox/deploy/ws-0uchz12b
 start: python3 site/server.py
 health:
   path: /healthz
