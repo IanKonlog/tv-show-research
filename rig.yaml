@@ -2,7 +2,10 @@ name: tv-taste
 port: 8080
 visibility: public
 workspace:
-  resources: { ramMb: 1024, vcpuCount: 1, diskSizeMb: 3072 }
+  resources: { ramMb: 2048, vcpuCount: 2, diskSizeMb: 8192 }
+  image: base
+  deployment:
+    strategy: image
 source:
   kind: git
   repo: https://github.com/IanKonlog/tv-show-research.git
@@ -11,3 +14,4 @@ start: python3 site/server.py
 health:
   path: /healthz
   timeoutSeconds: 30
+reproducible: true
