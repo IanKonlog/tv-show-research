@@ -5,7 +5,7 @@ workspace:
   resources: { ramMb: 1024, vcpuCount: 1, diskSizeMb: 3072 }
 source:
   kind: git
-  repo: https://github.com/jona62/tv-show-research.git
+  repo: https://github.com/IanKonlog/tv-show-research.git
   branch: main
 start: python3 site/server.py
 health:
